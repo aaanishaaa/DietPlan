@@ -1,0 +1,4 @@
+# Ignore environment files and node_modules
+server/.env
+client/node_modules/
+__pycache__/

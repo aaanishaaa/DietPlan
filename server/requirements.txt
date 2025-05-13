@@ -3,3 +3,4 @@ requests
 flask-cors
 python-dotenv
 groq
+gunicorn==23.0.0

@@ -24,7 +24,7 @@ function Diet() {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:5000/api/diet', formData);
+      const response = await axios.post('https://dietplan-backend.onrender.com/api/diet', formData);
       setDietPlan(response.data.plan);
     } catch (err) {
       setError('Failed to generate diet plan. Please try again.');
